@@ -8,6 +8,39 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="get">
+	<label for="Name">Name<span style="color:red;">*</span></label>
+	<input type="text" id="name" placeholder="Name"><br>
+	<label for="Email">Email<span style="color:red;">*</span></label>
+	<input type="email" id="email" placeholder="Email"><br>
+	<label for="gender">Gender<span style="color:red;">*</span></label>
+	<input type="radio" value="male" placeholder="Gender" name="gender" id="gender_m"><label for="gender_m">Male</label>
+	<input type="radio" value="female" placeholder="Gender" name="gender"  id="gender_f"><label for="gender_f">Female</label><br>
+	<label for="cars">Choose a car:</label>
+
+	<select name="cars" id="cars" >
+		<option >--Please choose an option--</option>
+	  <option value="volvo">Volvo</option>
+	  <option value="saab">Saab</option>
+	  <option value="mercedes">Mercedes</option>
+	  <option value="audi">Audi</option>
+	</select><br>
+	
+	<label for="age">Age<span style="color:red;">*</span></label>
+	<input type="number" id="number" placeholder="Age"><br>
+	<label for="dob">DOB<span style="color:red;">*</span></label>
+	<input type="date" id="dob" placeholder="Date of Birth" ><br>
+	<label for="phone">Phone Number<span style="color:red;">*</span></label>
+	<input type="number" id="tel" placeholder="xxx-xxx-xxxx" minlength="10" maxlength="10"><br>
+	<label for="password">Password<span style="color:red;">*</span></label>
+	<input type="password" id="password" placeholder="password" ><br>
+	<input type="checkbox" id="tos" >I agree to the TOS<br>
+	<button type="submit">
+	</button>
+	</form>
+	
+		
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
